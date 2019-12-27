@@ -49,6 +49,9 @@
   width: 350px;
   height: 500px;
 }
+.mybtn{
+  background:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);width: 111px;padding: 12px; 
+}
 .card{
   border: none !important;
 }
