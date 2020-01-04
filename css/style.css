@@ -29,8 +29,7 @@
   background: -webkit-linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
 }
 .card{
-  box-shadow:  3px 3px 5px 6px #ccc !important;
-  height: 550px;
+ height: 550px;
 }
 .info-header {
   width: 50%;
@@ -62,6 +61,7 @@
 }
 .mybtn{
   background:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);width: 111px;padding: 12px; 
+  color: white !important
 }
 
 .color-black{
@@ -69,6 +69,7 @@
 }
 .stat{
   background-image:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+
 }
 .circ{
   border-color:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%) !important
