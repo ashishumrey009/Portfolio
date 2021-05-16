@@ -336,15 +336,19 @@
 </center>
 </section>
 
-<script type="text/javascript">
-GitHubCalendar(".calendar", "ashishumrey009",
-    {
-        responsive: true,
-        // global_stats: false
-    });
+<script>
+    GitHubCalendar(".calendar", "ashishumrey009");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "nitu023", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "nitu023", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${ashishumrey009}`)
+       }
+    }).then(r => r.text())
 </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   
 
 
